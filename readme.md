@@ -69,7 +69,7 @@ STEP 2    CREATE A VIRTUAL HOST(I you are deploying the software on your local m
 
                  (NOTE: make sure it ends with "#" as shown above)
 
-7. Savethe files and restart your server -  make sure you restart your server after adding virtual host
+7. Save the files and restart your server -  make sure you restart your server after adding virtual host
 
 
 STEP 3    DATABASE SETUP
