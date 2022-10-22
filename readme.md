@@ -73,9 +73,14 @@ STEP 2    CREATE A VIRTUAL HOST(I you are deploying the software on your local m
 
 
 STEP 3    DATABASE SETUP
+
 8. Open phpmyadmin and create your database
+
 9. Import the "SQL" file into your database
+
 10. Open the file named ".env" located at the root of your project folder, and edit the following lines:
+
+NOTE: if you can't find the ".env" file, just rename the ".env.example" file to ".env"
 
 				DB_CONNECTION=mysql
 				DB_HOST=127.0.0.1
