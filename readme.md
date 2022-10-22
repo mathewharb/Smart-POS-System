@@ -6,9 +6,13 @@ Its intuitive UI makes it easy to keep an eye on your stock and incomes and moni
                       ## DEPLOYMENT ##
 
 REQUIREMENTS:
+
 -You need to have php version 7.4 and above running in your server
+
 -You need to install composer to be able to update the project dependencies
+
 -You will also need to create a Virtual Host if you are deploying the software on your local machine.
+
 NOTE: You do not need to setup a virtual host if you are deploying it on an online web server.
 
 
@@ -19,11 +23,15 @@ STEP 1    PREPARE THE PROJECT
 4. run this command to update the dependencies "composer update" 
 
 STEP 2    CREATE A VIRTUAL HOST(I you are deploying the software on your local machine)
+
           ##  TO SETUP A VIRTUAL HOST, FOLLOW THESE STEPS BELOW:  ##
 
 5. Add a Windows host
+6. 
             To Add a Windows Host, follow these steps:
+	    
           - Open the file named "hosts" located in "C:\Windows\System32\Drivers\etc"
+          - 
           - Then add the following two lines to the "hosts" file:
 
 		               127.0.0.1	smartpos.local
@@ -32,10 +40,13 @@ STEP 2    CREATE A VIRTUAL HOST(I you are deploying the software on your local m
 (where "smartpos.local" is the name of your Virtual Host: it can be given any name)
 
 6. Create a Virtual Host and make sure it points to your project directory
+7. 
         To Add a Virtual Host, follow these steps:
 
          IF YOU ARE USING WAMP SERVER:
+	 
        - Open the file named "httpd-vhosts.conf" located in c:/wamp64/bin/apache/apache2.4.37/conf/extra
+       
        - add the following lines at the end of "#" 
                         
                         <VirtualHost *:80>
@@ -54,7 +65,9 @@ STEP 2    CREATE A VIRTUAL HOST(I you are deploying the software on your local m
 ("ServerName smartpos.local" is the name of your virtual host, "c:/wamp64/www/smartpos" and "c:/wamp64/www/smartpos/" points to the absolute path of the project folder)
 
            IF YOU ARE USING XAMPP:
+	   
              - Open the file named "httpd-vhosts.conf" located in C:\xampp\apache\conf\extra
+	     
              - add the following lines at the end of "#" 
 
 						 ##<VirtualHost *:80>
