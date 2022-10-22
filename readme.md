@@ -90,11 +90,16 @@ NOTE: if you can't find the ".env" file, just rename the ".env.example" file to 
 				DB_PASSWORD=pass123
 
  -Replace "smartposdb"  with the name of your database
+ 
  -Replace "root"  with your Mysql server user name
+ 
  -Replace  "pass123"  with with your Mysql server password
+ 
 
 STEP 4      RUN THE APPLICATION
+
 11.  Open your web browser and type the name of your virtual host to run the application:
+
                 E.g. "smartpos.local"
 
 12. Use the following credentials to login:
@@ -106,19 +111,27 @@ STEP 4      RUN THE APPLICATION
 
 
 Do Not Hesitate To Contact Me Via Email or Whatsapp, if You have any Question or Suggestions regarding the Software.
+
 EMail:     harbmathew@yahoo.com
+
 WhatsApp:  +2207425159
 
 Please Feel Free To Buy Me  Coffee If You Find  This software Useful to your Cause.
 
 
                             FOR DEVELOPERS
+			    
 -The "Models" are located in the "app" folder
+
 -The "Controllers" are in the "app/Http/Controllers" directory
+
 -The "Views" are in the "resources/views" directory
+
 -The "migrations" are in the "database/migrations" folder
 
 -To migrate your database tables, open your command line editor and navigate to the root of the project directory
+
 -Then run this command "php artisan migrate" to migrate the database tables
+
 -Finally run this command to seed the database tables "php artisan db:seed"		
 
